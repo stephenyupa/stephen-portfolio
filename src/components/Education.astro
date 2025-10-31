@@ -38,8 +38,11 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                       <div>
                         {edu.dateRange}
                         {edu.gpa && (
-                          <span class="text-gray-600 ml-2">
-                            • GPA: <span class="font-medium">{edu.gpa}</span>
+                          <span
+                            class="ml-2 text-xs sm:text-sm px-2 py-1 rounded-full border font-medium"
+                            style={`border-color: ${siteConfig.accentColor}; color: ${siteConfig.accentColor}`}
+                          >
+                            GPA: {edu.gpa}
                           </span>
                         )}
                       </div>
