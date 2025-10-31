@@ -1,91 +1,52 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Stephen Yupa",
+  title: "CS & Economics @ Georgetown • AI/ML & SWE",
+  description: "Portfolio website of Stephen Yupa",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "stepheny042405@gmail.com",
+    linkedin: "https://www.linkedin.com/in/stephen-yupa-sy21/",
+    twitter: "https://x.com/stephenyupa",
+    github: "https://github.com/stephenyupa",
   },
+  // Path or URL to your photo (e.g., "/me.jpg" in public or a hosted URL)
+  photo: "/me.jpg",
+  resume: "https://drive.google.com/file/d/1U-WwI_9O9R2_np6zZQHN_C1Ys2kWv4hf/view?usp=sharing",
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "My name is Stephen Yupa, and I am a Junior studying Economics and Computer Science at Georgetown University. I am spending a semester abroad in Edinburgh, Scotland. I am passionate about AI/ML engineering and eager to apply my skills to real-world challenges. Beyond coding, I enjoy running, basketball, and singing, which inspire my creativity and problem-solving approach.",
+  skills: ["C++", "SQL", "Javascript", "React", "Node.js", "Python", "AWS", "Docker", "Tableau"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Financial Foreacasting Model",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed a Python tool for S&P 500 forecasting and risk analysis using ARIMA and Prophet models. Automated scenario simulations and risk metrics (VaR, CVaR, volatility) with Tableau-ready exports for real-time decision support.",
+      link: "https://github.com/stephenyupa/FinancialForecasting",
+      skills: ["Python", "Excel", "Tableau"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Damages Analysis & Econometrics Modeling of Wage Inequality",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Designed a reproducible Stata workflow using CPS microdata to model wage disparities by education, gender, and age. Delivered robust regressions and interpretable insights for policy analysis.",
+      link: "https://github.com/stephenyupa/CPS_Wage_Disparities",
+      skills: ["Stata"],
     },
     {
-      name: "ExtensionKit",
+      name: "Pointerless Disk-Based B+-Tree Indexing Engine",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Engineered a high-performance, pointerless B+-Tree in C++ optimized for disk-based storage. Features efficient insert/search/delete operations, polynomial hashing, and real-time performance tracking via CLI.",
+      link: "https://github.com/stephenyupa/P3",
+      skills: ["C++"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+  experience: [],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Georgetown University",
+      degree: "Bachelor of Arts in Economics and Computer Science",
+      dateRange: "2023 - 2027",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
         "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Omicron Delta Epsilon",
       ],
     },
   ],
