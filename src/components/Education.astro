@@ -34,9 +34,15 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                         {edu.school}
                       </p>
                     </div>
-                    <span class="text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
-                      {edu.dateRange}
-                    </span>
+                    <div class="text-right text-xs sm:text-sm text-gray-500 mt-2 sm:mt-0">
+                      <div>{edu.dateRange}</div>
+                      {edu.gpa && (
+                        <div class="mt-0.5 inline-block rounded-full px-2 py-0.5 border"
+                          style={`border-color: ${siteConfig.accentColor}; color: ${siteConfig.accentColor}`}>
+                          GPA: {edu.gpa}
+                        </div>
+                      )}
+                    </div>
                   </div>
 
                   <ul class="space-y-2">
@@ -49,6 +55,22 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                       </li>
                     ))}
                   </ul>
+
+                  {edu.coursework && edu.coursework.length > 0 && (
+                    <div class="mt-4">
+                      <h4 class="text-sm font-semibold text-gray-900">Relevant Coursework</h4>
+                      <div class="mt-2 flex flex-wrap gap-2">
+                        {edu.coursework.map((course) => (
+                          <span
+                            class="text-xs sm:text-sm px-2 py-1 rounded-full border"
+                            style={`border-color: ${siteConfig.accentColor}; color: ${siteConfig.accentColor}`}
+                          >
+                            {course}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

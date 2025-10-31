@@ -44,6 +44,15 @@ export const siteConfig = {
       school: "Georgetown University",
       degree: "Bachelor of Arts in Economics and Computer Science",
       dateRange: "2023 - 2027",
+      gpa: "3.877/4.0",
+      coursework: [
+        "Data Structures & Algorithms",
+        "Discrete Mathematics",
+        "Object Oriented Programming",
+        "Econometrics",
+        "Mathematical Statistics",
+        "Database Systems",
+      ],
       achievements: [
         "Dean's List all semesters",
         "Omicron Delta Epsilon",
