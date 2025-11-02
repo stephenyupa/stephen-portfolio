@@ -17,7 +17,7 @@ export const siteConfig = {
   skills: ["C++", "SQL", "Javascript", "React", "Node.js", "Python", "AWS", "Docker", "Tableau"],
   projects: [
     {
-      name: "Financial Foreacasting Model",
+      name: "Financial Forecasting Model",
       description:
         "Developed a Python tool for S&P 500 forecasting and risk analysis using ARIMA and Prophet models. Automated scenario simulations and risk metrics (VaR, CVaR, volatility) with Tableau-ready exports for real-time decision support.",
       link: "https://github.com/stephenyupa/FinancialForecasting",
