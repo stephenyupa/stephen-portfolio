@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Stephen Yupa",
-  title: "CS & Economics @ Georgetown • Aspiring Quantitative Trader & SWE",
-  description: "Portfolio website of Stephen Yupa",
+  title: "CS & Economics @ Georgetown • Aspiring Quant & SWE",
+  description: "Official portfolio of Stephen Yupa — Georgetown University student in Computer Science and Economics, interested in AI/ML software engineering, and quantitative trading.",
   accentColor: "#1d4ed8",
   social: {
     email: "stepheny042405@gmail.com",
