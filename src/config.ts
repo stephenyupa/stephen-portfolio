@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Stephen Yupa",
-  title: "CS & Economics @ Georgetown • Aspiring AI/ML & SWE",
+  title: "CS & Economics @ Georgetown • Aspiring Quantitative Trader & SWE",
   description: "Portfolio website of Stephen Yupa",
   accentColor: "#1d4ed8",
   social: {
