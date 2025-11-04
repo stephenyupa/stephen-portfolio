@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   // Path or URL to your photo (e.g., "/me.jpg" in public or a hosted URL)
   photo: "/me.jpg",
-  resume: "https://drive.google.com/file/d/1U-WwI_9O9R2_np6zZQHN_C1Ys2kWv4hf/view?usp=sharing", 
+  resume: "https://drive.google.com/file/d/1nziGOD5IuIeW-qpFlf9R01Vgc-IOsB4g/view?usp=sharing", 
   aboutMe:
     "My name is Stephen Yupa, and I am a Junior studying Economics and Computer Science at Georgetown University. I am spending a semester abroad in Edinburgh, Scotland. I am passionate about AI/ML engineering and eager to apply my skills to real-world challenges. Beyond coding, I enjoy running, basketball, and singing, which inspire my creativity and problem-solving approach.",
   skills: ["C++", "SQL", "Javascript", "React", "Node.js", "Python", "AWS", "Docker", "Tableau"],
